@@ -1,0 +1,235 @@
+.nav_wrap{
+	width: 100%;
+	height: 36px;
+	background-color: #333333;
+}
+.nav{
+	width: 1090px;
+	height: 36px;
+	margin: 0 auto;
+}
+.nav_left{
+	float: left;
+}
+.nav_left img{
+	float: left;
+}
+.nav_left p{
+	float: left;
+	line-height: 36px;
+	text-decoration: underline;
+	margin-left: 18px;
+	font-size: 12px;
+	color: #cc9756;
+}
+.nav_left .swiper-container{
+	height: 36px;
+}
+.nav_left .swiper-container .swiper-wrapper .swiper-slide{
+	height: 36px;
+	margin-left: 10px;
+}
+.nav_right{
+	height: 36px;
+	float: right;
+}
+.nav_right .nav_list{
+	height: 36px;
+}
+.nav_right .nav_list li{
+	float: left;
+	line-height: 36px;
+	position: relative;
+}
+.nav_right .nav_list a:hover{
+	color: white;
+}
+.nav_right .nav_list a{
+	height: 16px;
+	padding: 0 10px;
+	color: #c2c2c2;
+	border-right: 1px solid #5c5c5c;
+}
+.nav_right .nav_list a img{
+	margin-left: 10px;
+}
+.nav_right .nav_list a .nav_phone{
+	margin-left: 0;
+	margin-right: 8px;
+}
+.nav_right .nav_list .nav_list_addlist li{
+	float: none;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.nav_right .nav_list .nav_list_addlist a{
+	color: #A59999;
+	border-right: none;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 10px;
+}
+.nav_right .nav_list .nav_list_addlist{
+	position: absolute;
+	background-color: white;
+	border: 1px solid #ccc;
+	width: 90px;
+	display: none;
+	z-index: 999;
+}
+.nav_right .nav_list .nav_list_addlist a:hover{
+	color: #CC9756;
+}
+
+/* search */
+.search_wrap{
+	width: 100%;
+	height: 140px;
+	background-color: white;
+}
+
+.search_wrap .search{
+	width: 1090px;
+	height: 140px;
+	margin: 0 auto;
+	cursor: pointer;
+
+}
+.search_top{
+	height: 107px;
+}
+.search_top img{
+	float: left;
+}
+.search_top .search_text{
+	float: left;
+	margin-left: 163px;
+}
+.search_top .search_text li{
+	float: left;
+	margin-top: 8px;
+}
+.search_top .search_text li a{
+	font-size: 12px;
+	color: #cc9756;
+	padding: 0 10px;
+}
+.search_top .search_text li .line{
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+}
+.search_top input{
+	margin-top: 32px;
+	height: 38px;
+	width: 400px;
+	border: 1px solid #cc9756;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	color: #a59999;
+	padding-left: 40px;
+	background: url(../image/search2.jpg) no-repeat 12px;
+}
+.search_top .search_btn{
+	height: 39px;
+	width: 90px;
+	border: 1px solid #cc9756;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background-color: #CC9756;
+	color: white;
+	margin-left: -5px;
+}
+.search_top .shopcart{
+	margin-top: 32px;
+	float: left;
+	height: 39px;
+	width: 135px;
+	color: #CC9756;
+	background-color: white;
+	border: 1px solid #cc9756;
+	margin-left: 50px;
+	border-radius: 15px;
+	line-height: 39px;
+	background: url(../image/search3.jpg) no-repeat 24px;
+}
+.search_top .shopcart p{
+	float: left;
+	margin-left: 46px;
+}
+.search_top .shopcart span{
+	margin-top: 10px;
+	float: left;
+	color: white;
+	background-color: #d42928;
+	display: block;
+	width: 19px;
+	height: 19px;
+	text-align: center;
+	line-height: 19px;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+
+.search_bottom{
+	height: 33px;
+}
+.search_bottom ul{
+	height: 33px;
+	position: relative;
+}
+.search_bottom .search_bottom_list_right{
+	margin-right: 0;
+}
+.search_bottom li{
+	float: left;
+	height: 33px;
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	padding: 0 20px;
+}
+.search_bottom_list_line{
+	height: 34px;
+	line-height: 34px;
+}
+.search_bottom li a{
+	height: 33px;
+	line-height: 33px;
+	padding-bottom: 4px;
+}
+.search_bottom .search_bottom_addlist{
+	z-index: 99;
+	width: 1205px;
+	height: 405px;
+	background-color: white;
+	position: absolute;
+	left: -100px;
+	display: none;
+}
+.search_bottom .search_bottom_addlist h3{
+	color: #323232;
+	height: 50px;
+	line-height: 60px;
+	border-bottom: 1px solid #ccc;
+}
+.search_bottom .search_bottom_addlist ul{
+	margin: 0 2px;
+	float: left;
+}
+.search_bottom .search_bottom_addlist li{
+	height: 60px;
+	line-height: 60px;
+	float: none;
+	font-weight: normal;
+	color: #5e5d5d;
+}
+.search_bottom .search_bottom_addlist li a{
+	height: 50px;
+}
+.search_bottom .search_bottom_addlist li:hover{
+	color: #CC9756;
+}
+.search_bottom > ul > li:hover a{
+	color: #CC9756;
+	border-bottom: 3px solid #CC9756;
+}
