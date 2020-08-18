@@ -130,23 +130,22 @@ $.ajax({
 									</tr>
 								</table>
 							</div>
-							<img src="../image/jieshao2.webp" />
-							<img src="../image/jieshao3.webp" />
-							<img src="../image/jieshao4.webp" />
-							<img src="../image/jieshao5.webp" />
-							<img src="../image/jieshao6.webp" />
-							<img src="../image/jieshao7.webp" />
-							<img src="../image/jieshao8.webp" />
-							<img src="../image/jieshao9.webp" />
-							<img src="../image/jieshao10.webp" />
-							<img src="../image/jieshao11.webp" />
-							<img src="../image/jieshao12.webp" />
-							<img src="../image/jieshao13.webp" />
-							<img src="../image/jieshao14.webp" />
-							<img src="../image/jieshao15.webp" />
-							<img src="../image/jieshao.gif">
-							<img src="../image/jieshao16.webp" />
-							<img src="../image/jieshao17.webp" />
+							<img src="../image/detail${json[index].code}/jieshao2.webp" />
+							<img src="../image/detail${json[index].code}/jieshao3.webp" />
+							<img src="../image/detail${json[index].code}/jieshao4.webp" />
+							<img src="../image/detail${json[index].code}/jieshao5.webp" />
+							<img src="../image/detail${json[index].code}/jieshao6.webp" />
+							<img src="../image/detail${json[index].code}/jieshao7.webp" />
+							<img src="../image/detail${json[index].code}/jieshao8.webp" />
+							<img src="../image/detail${json[index].code}/jieshao9.webp" />
+							<img src="../image/detail${json[index].code}/jieshao10.webp" />
+							<img src="../image/detail${json[index].code}/jieshao11.webp" />
+							<img src="../image/detail${json[index].code}/jieshao12.webp" />
+							<img src="../image/detail${json[index].code}/jieshao13.webp" />
+							<img src="../image/detail${json[index].code}/jieshao14.webp" />
+							<img src="../image/detail${json[index].code}/jieshao15.webp" />
+							<img src="../image/detail${json[index].code}/jieshao16.webp" />
+							<img src="../image/detail${json[index].code}/jieshao17.webp" />
 						</div>
 				`;
 				$('.detail_jieshao').append(dom2);
